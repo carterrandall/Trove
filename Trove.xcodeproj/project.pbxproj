@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B14E7C8C248A77DF001B3AA6 /* SessionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7C8B248A77DF001B3AA6 /* SessionInfoView.swift */; };
 		B15F6DCB2483F28C00B29DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F6DCA2483F28C00B29DFC /* AppDelegate.swift */; };
-		B15F6DCD2483F28C00B29DFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F6DCC2483F28C00B29DFC /* SceneDelegate.swift */; };
 		B15F6DCF2483F28C00B29DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F6DCE2483F28C00B29DFC /* ViewController.swift */; };
 		B15F6DD22483F28C00B29DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15F6DD02483F28C00B29DFC /* Main.storyboard */; };
 		B15F6DD42483F28F00B29DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15F6DD32483F28F00B29DFC /* Assets.xcassets */; };
 		B15F6DD72483F28F00B29DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15F6DD52483F28F00B29DFC /* LaunchScreen.storyboard */; };
+		B15F6DDF2483FA2500B29DFC /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F6DDE2483FA2500B29DFC /* CollectionView.swift */; };
+		B15F6DE12483FBD100B29DFC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F6DE02483FBD100B29DFC /* Extensions.swift */; };
+		B15F6DE3248418A200B29DFC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F6DE2248418A200B29DFC /* Utilities.swift */; };
+		B15F9EA52485E5A200B29DFC /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F9EA42485E5A200B29DFC /* SaveButton.swift */; };
+		B15F9EA72485EC8800B29DFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B15F9EA62485EC8800B29DFC /* GoogleService-Info.plist */; };
+		B15F9EA92485F0C800B29DFC /* SnapshotAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F9EA82485F0C800B29DFC /* SnapshotAnchor.swift */; };
+		B1E416432486E82C00B32709 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E416422486E82C00B32709 /* PreviewCell.swift */; };
+		B1E416452486FF0000B32709 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E416442486FF0000B32709 /* Models.swift */; };
+		B1E4164724892C7100B32709 /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E4164624892C7100B32709 /* ZoomAndSnapFlowLayout.swift */; };
+		B1E4164924893A4A00B32709 /* EditSendNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E4164824893A4A00B32709 /* EditSendNoteView.swift */; };
+		D0E90465B9DDEFCD3FAFC4FF /* Pods_Trove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A124C3C793B4CEA7C65E4EF1 /* Pods_Trove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A506BBDB8EB7946AA0A3C4B /* Pods-Trove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trove.debug.xcconfig"; path = "Target Support Files/Pods-Trove/Pods-Trove.debug.xcconfig"; sourceTree = "<group>"; };
+		A124C3C793B4CEA7C65E4EF1 /* Pods_Trove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14E7C8B248A77DF001B3AA6 /* SessionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionInfoView.swift; sourceTree = "<group>"; };
 		B15F6DC72483F28C00B29DFC /* Trove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15F6DCA2483F28C00B29DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B15F6DCC2483F28C00B29DFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B15F6DCE2483F28C00B29DFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B15F6DD12483F28C00B29DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B15F6DD32483F28F00B29DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15F6DD62483F28F00B29DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15F6DD82483F28F00B29DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15F6DDE2483FA2500B29DFC /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		B15F6DE02483FBD100B29DFC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B15F6DE2248418A200B29DFC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B15F9EA42485E5A200B29DFC /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
+		B15F9EA62485EC8800B29DFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B15F9EA82485F0C800B29DFC /* SnapshotAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotAnchor.swift; sourceTree = "<group>"; };
+		B1E416422486E82C00B32709 /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
+		B1E416442486FF0000B32709 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1E4164624892C7100B32709 /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
+		B1E4164824893A4A00B32709 /* EditSendNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSendNoteView.swift; sourceTree = "<group>"; };
+		C246FC1819DDAE136644FD1E /* Pods-Trove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trove.release.xcconfig"; path = "Target Support Files/Pods-Trove/Pods-Trove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E90465B9DDEFCD3FAFC4FF /* Pods_Trove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		460F63E81D3A1C7E6B9D8D57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A506BBDB8EB7946AA0A3C4B /* Pods-Trove.debug.xcconfig */,
+				C246FC1819DDAE136644FD1E /* Pods-Trove.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2EC74C8380099D300121E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A124C3C793B4CEA7C65E4EF1 /* Pods_Trove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B15F6DBE2483F28C00B29DFC = {
 			isa = PBXGroup;
 			children = (
 				B15F6DC92483F28C00B29DFC /* Trove */,
 				B15F6DC82483F28C00B29DFC /* Products */,
+				460F63E81D3A1C7E6B9D8D57 /* Pods */,
+				A2EC74C8380099D300121E29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +101,22 @@
 			isa = PBXGroup;
 			children = (
 				B15F6DCA2483F28C00B29DFC /* AppDelegate.swift */,
-				B15F6DCC2483F28C00B29DFC /* SceneDelegate.swift */,
 				B15F6DCE2483F28C00B29DFC /* ViewController.swift */,
+				B14E7C8B248A77DF001B3AA6 /* SessionInfoView.swift */,
+				B1E4164624892C7100B32709 /* ZoomAndSnapFlowLayout.swift */,
+				B15F9EA82485F0C800B29DFC /* SnapshotAnchor.swift */,
+				B15F9EA42485E5A200B29DFC /* SaveButton.swift */,
+				B1E4164824893A4A00B32709 /* EditSendNoteView.swift */,
+				B15F6DE02483FBD100B29DFC /* Extensions.swift */,
+				B15F6DE2248418A200B29DFC /* Utilities.swift */,
+				B15F6DDE2483FA2500B29DFC /* CollectionView.swift */,
+				B1E416442486FF0000B32709 /* Models.swift */,
+				B1E416422486E82C00B32709 /* PreviewCell.swift */,
 				B15F6DD02483F28C00B29DFC /* Main.storyboard */,
 				B15F6DD32483F28F00B29DFC /* Assets.xcassets */,
 				B15F6DD52483F28F00B29DFC /* LaunchScreen.storyboard */,
 				B15F6DD82483F28F00B29DFC /* Info.plist */,
+				B15F9EA62485EC8800B29DFC /* GoogleService-Info.plist */,
 			);
 			path = Trove;
 			sourceTree = "<group>";
@@ -74,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B15F6DDB2483F28F00B29DFC /* Build configuration list for PBXNativeTarget "Trove" */;
 			buildPhases = (
+				2547DB05300A2D9F0082F572 /* [CP] Check Pods Manifest.lock */,
 				B15F6DC32483F28C00B29DFC /* Sources */,
 				B15F6DC42483F28C00B29DFC /* Frameworks */,
 				B15F6DC52483F28C00B29DFC /* Resources */,
+				90319E44FFE7B78D57A2D9DF /* [CP] Embed Pods Frameworks */,
+				71E50330F539B9B9EA43736B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15F9EA72485EC8800B29DFC /* GoogleService-Info.plist in Resources */,
 				B15F6DD72483F28F00B29DFC /* LaunchScreen.storyboard in Resources */,
 				B15F6DD42483F28F00B29DFC /* Assets.xcassets in Resources */,
 				B15F6DD22483F28C00B29DFC /* Main.storyboard in Resources */,
@@ -133,14 +191,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2547DB05300A2D9F0082F572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E50330F539B9B9EA43736B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trove/Pods-Trove-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trove/Pods-Trove-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trove/Pods-Trove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90319E44FFE7B78D57A2D9DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trove/Pods-Trove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trove/Pods-Trove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trove/Pods-Trove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B15F6DC32483F28C00B29DFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E4164724892C7100B32709 /* ZoomAndSnapFlowLayout.swift in Sources */,
+				B15F6DE3248418A200B29DFC /* Utilities.swift in Sources */,
+				B15F6DE12483FBD100B29DFC /* Extensions.swift in Sources */,
+				B15F9EA52485E5A200B29DFC /* SaveButton.swift in Sources */,
 				B15F6DCF2483F28C00B29DFC /* ViewController.swift in Sources */,
+				B15F9EA92485F0C800B29DFC /* SnapshotAnchor.swift in Sources */,
 				B15F6DCB2483F28C00B29DFC /* AppDelegate.swift in Sources */,
-				B15F6DCD2483F28C00B29DFC /* SceneDelegate.swift in Sources */,
+				B1E416452486FF0000B32709 /* Models.swift in Sources */,
+				B1E4164924893A4A00B32709 /* EditSendNoteView.swift in Sources */,
+				B1E416432486E82C00B32709 /* PreviewCell.swift in Sources */,
+				B15F6DDF2483FA2500B29DFC /* CollectionView.swift in Sources */,
+				B14E7C8C248A77DF001B3AA6 /* SessionInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +408,22 @@
 		};
 		B15F6DDC2483F28F00B29DFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A506BBDB8EB7946AA0A3C4B /* Pods-Trove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMB6AJ33BL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/Trovetest/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Trovetest/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Trovetest/Pods/GoogleAppMeasurement/Frameworks",
+				);
 				INFOPLIST_FILE = Trove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +437,22 @@
 		};
 		B15F6DDD2483F28F00B29DFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C246FC1819DDAE136644FD1E /* Pods-Trove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMB6AJ33BL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/Trovetest/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Trovetest/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Trovetest/Pods/GoogleAppMeasurement/Frameworks",
+				);
 				INFOPLIST_FILE = Trove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
