@@ -1,10 +1,17 @@
 # Trove
 AR Persistent Hidden Message App
 
-![alt text](https://github.com/carterrandall/Trove/blob/master/images/trovebanner.png)
+![banner](https://github.com/carterrandall/Trove/blob/master/images/trovebanner.png)
 
 ### About: 
 Trove Saves notes in 3D space around you. Create custom 3D objects and anchor them to real world objects and locations. When you save a note, other users in the area will see that a note is hidden there. By pointing their camera at the scene where you left a note the 3D object is relocalized to the visible planes in the camera.
+
+## Leave a note
+
+![create](https://github.com/carterrandall/Trove/blob/master/images/create.png)
+
+## Others in the area can see the note you left behind!
+![relocalize](https://github.com/carterrandall/Trove/blob/master/images/relocalize.png)
 
 ### Required Pods:
 
